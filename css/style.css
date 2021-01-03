@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&display=swap');
+nav {
+    background-color: #034863;
+    height: 3.65em;
+    padding: .5em;
+}
+
+body {
+    background-color: #00a896;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    font-size: 2.25em;
+    color: whitesmoke;
+    font-weight: lighter;
+    letter-spacing: .4em;
+    font-family: 'Permanent Marker', cursive;
+    margin: .75em;
+}
+
+#nav-list ul {
+    list-style-type: none;
+    color: white;
+    float: right;
+    font-size: 1.2em;
+    margin: .9em;
+}
+
+#nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav-list li {
+    display: inline;
+    margin-left: 2em;
+    padding: 0.5em;
+}
+
+#nav-list li:hover {
+    border: white;
+    border-style: solid;
+    border-width: .1em;
+    border-radius: .75em;
+}
+
+#projectslist {
+    width: 100%;
+    text-align: center;
+    margin-top: 1.25em;
+}
+
+#projectslist>div {
+    width: calc(100% / 2);
+    display: inline-block;
+    text-align: left;
+    margin: 1em;
+    width: 45rem;
+    height: 29rem;
+    background-color: #034863;
+    border-radius: 1em;
+}
+
+#buttons {
+    width: 100%;
+    text-align: left;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+#buttons>div {
+    width: calc(100% / 2);
+    display: inline-block;
+    text-align: left;
+    width: 1em;
+    height: 1em;
+    margin: .2em;
+}
+
+#buttonclick {
+    border-radius: 1em;
+}
+
+#search {
+    padding-top: .4em;
+    padding-right: 20rem;
+    padding-bottom: .4em;
+    padding-left: 16rem;
+    text-align: center;
+    width: 20em;
+    height: 2em;
+    border-radius: .55em;
+}
+
+img {
+    width: 43rem;
+    height: 23.8888888889rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    border-radius: .5rem;
+}
