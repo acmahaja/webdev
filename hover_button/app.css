@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body {
+    background-color: rgb(19, 25, 37);
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
+button {
+    position: absolute;
+    top: 40%;
+    left: 46.5%;
+    padding: .75em 1.25em;
+    background-color: rgb(19, 25, 37);
+    border: 2px rgb(218, 136, 43) solid;
+    color: rgb(218, 136, 43);
+    font-size: 1.125em;
+    transition: .25s linear, box-shadow .75s;
+}
+
+button:hover {
+    color: #f1ff5c;
+    border: 2px #f1ff5c solid;
+    transform: translateX();
+    box-shadow: 0px 7px 12px -7px #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
