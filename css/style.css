@@ -3,6 +3,9 @@ nav {
     background-color: #034863;
     height: 3.65em;
     padding: .5em;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px
 }
 
 body {
