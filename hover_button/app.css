@@ -2,13 +2,26 @@
 body {
     background-color: rgb(19, 25, 37);
     font-family: 'Roboto', sans-serif;
-    ;
+}
+
+#vwrapper {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+}
+
+#button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 button {
     position: absolute;
-    top: 40%;
-    left: 46.5%;
+    /* top: 40%;
+    left: 46.5%; */
     padding: .75em 1.25em;
     background-color: rgb(19, 25, 37);
     border: 2px rgb(218, 136, 43) solid;
