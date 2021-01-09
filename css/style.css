@@ -1,6 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&display=swap');
+
+/* background-color: #034863;
+background-color: #00a896; 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #131925;
+}
+
+html {
+    background-color: #131925;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 nav {
-    background-color: #034863;
+    background-color: #131925;
+    padding: .5rem 1.5rem;
+}
+
+#nav_dim {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    text-decoration: none;
+}
+
+nav li a {
+    text-decoration: none;
+    width: 7.5rem;
+    color: white;
+    text-align: center;
+    width: 7rem;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: .65rem;
+    transition: 200ms;
+}
+
+#title {
+    font-size: 2.25em;
+    letter-spacing: .4em;
+    font-family: 'Permanent Marker', cursive;
+    color: whitesmoke;
+}
+
+#buttonclick {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
+
+#projectslist {
+    width: 100%;
+    align-items: center;
+    margin-top: 1.25em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#project {
+    display: flex;
+    flex-direction: column;
+    min-width: 43rem;
+    height: 55vh;
+    background-color: #00a896;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+#search-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: #008174;
+    padding: .55rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: #008174;
+}
+
+#search {
+    background-color: #008174;
+    width: 100%;
+    margin: 0rem 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: .45rem;
+}
+
+#buttonclick {
+    margin: .25rem;
+}
+
+iframe {
+    width: 95%;
+    height: 100rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    border-radius: .5rem;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+ul li a:hover {
+    border: 1px white solid;
+    border-radius: .5rem;
+    box-shadow: 0px 3px 3px white;
+    transform: translateY(-2px)
+}
+
+
+/*
+nav {
     height: 3.65em;
     padding: .5em;
     position: -webkit-sticky;
@@ -9,17 +151,14 @@ nav {
 }
 
 body {
-    background-color: #00a896;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
 }
 
 #title {
-    font-size: 2.25em;
     color: whitesmoke;
     font-weight: lighter;
+    font-size: 2.25em;
     letter-spacing: .4em;
-    font-family: 'Permanent Marker', cursive;
     margin: .75em;
 }
 
@@ -117,3 +256,9 @@ iframe {
     border-radius: .5rem;
     background-color: white;
 }
+
+project:hover {
+    width: 50rem;
+    height: 45rem;
+}
+*/
