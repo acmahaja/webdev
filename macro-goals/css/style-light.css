@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -138,8 +140,66 @@ table {
 
 body {
     background-color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 1.5rem;
 }
 
 h1 {
     color: black;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#categories {
+    padding: 0;
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.category {
+    margin-top: 2vh;
+    margin: .5rem;
+    width: 30vw;
+    height: 20vh;
+    box-shadow: 2px 2px 10px #707070;
+    border-radius: .75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    color: #707070;
+}
+
+.categoryEmoji {
+    text-align: center;
+    font-size: 10vh;
+    margin-top: .5rem;
+}
+
+.categoryTitle {
+    font-size: 3.5vh;
+    font-weight: bold;
+}
+
+.categoryTotal {
+    font-weight: 400;
+    font-size: 2.5vh;
+}
+
+.newCategory {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 70px;
+    height: 70px;
+    margin: 1rem;
+    font-size: 5vh;
+    border-radius: 50%;
+    color: white;
+    background-color: #3542e9;
+    border: none
 }
