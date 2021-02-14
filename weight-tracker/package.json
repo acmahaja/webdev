@@ -1,0 +1,16 @@
+{
+  "name": "weight-tracker",
+  "version": "1.0.0",
+  "description": "It accepts a set of manual entries of weight measurements taken at different dates\r It can plot a graph\r It can allow to track multiple entities, for example more than one person weight\r Store them somewhere",
+  "main": "seed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
